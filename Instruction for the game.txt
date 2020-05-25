@@ -1,0 +1,62 @@
+Steps to create the HomeSick Cody game:
+
+**************************************Instructions for Start button************************************************
+1) Upload the start button sprite.
+2) When we click on this button, it broadcast the message start to all other sprites and hide.
+
+
+
+********************************************Instructions for Cody************************************************
+1) when it receive the start message, set the size of cody to 150%.
+2) It say "Can you help me find my spaceship?" for 2 seconds.
+3) After 2 seconds, it say "Use the arrow key to move me and protect from meteorite" for 2 seconds.
+4) Then it shrink the size to 5%.
+
+5) when we press the up arrow key, it change the y position by 3.
+6) when we press the down arrow key, it change the y position by -3.
+7) when we press the left arrow key, it change the x position by 3.
+8) when we press the right arrow key, it change the x position by -3.
+
+9) Then, it searches our spaceship by moving here and there.
+10) The meteorites occur randomly from various positions.
+11) whenever it touches the meteorites, play sound zoop.
+10) when it see the spaceship, it broadcast the message gotspaceship to all other sprites.
+11) it moves towards the spaceship and shink its size and play sound whoop.
+
+
+
+***********************************Instructions for meteorites************************************************
+1) when the game starts, it starts its clone after random seconds (pick random from 1 to 10 seconds)
+2) when i start as a clone, it occur from random positions.
+3) when ever the end of game occur then delete this clone.
+
+
+
+
+**********************************Instructions for Planet*********************************************
+1) wheneer it receive start, it occur from random position after the cody finds the space ship.
+2) whenever it receive the endofgame, it say "it only took you time seconds to reach the home! well done" for 2 seconds.
+
+
+
+***************************************Instructions for spaceship**********************************************
+1) when i receive start, it set the size to 4%.
+2) when we press the up arrow key, it change the y position by 3.
+3) when we press the down arrow key, it change the y position by -3.
+4) when we press the left arrow key, it change the x position by 3.
+5) when we press the right arrow key, it change the x position by -3.
+6) it hides for 23 seconds.
+7) after 23 seconds from the game start, it appear from random position.
+
+8) when it receive gotspaceship, it say "Okay, lets go!" for 3 seconds.
+9) after 3 seconds, say "We should head up to look for my planet" for 3 seconds.
+10) whenever it touches the meteorites, play sound zoop.
+11) when it touches the home planet, it broadcast the message endofgame and say "My home planet!" for 2 seconds.
+12 and play sound whoop.
+
+
+13) when it receie the message level3, it say "My planet must be around here somewhere..." for 3 seconds.
+
+14) when it rceive the message endofgame, it say "i am home" for 2 seconds.
+
+**************************************************************************************************************************
